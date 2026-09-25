@@ -1,16 +1,25 @@
-## Hi there 👋
+# Hi, I'm Mark
 
-<!--
-**miracles-portside/miracles-portside** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build an Android app from my Android phone.
 
-Here are some ideas to get you started:
+### Currently building
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Portside** — a nautical logbook for mariners
+- Kotlin · MapLibre · Supabase
+- Built entirely in Termux on Android — no laptop, no Android Studio
+- Solo-designed, **AI-assisted** development (DeepSeek and ChatGPT)
+- Coming to the Play Store soon
+
+### How I build
+
+I'm a seafarer, not a classically trained developer. I write Kotlin in Termux
+on my phone — no laptop, no Android Studio, no emulator. Testing happens on the
+real device using debug-apk, and every build runs from the command line with
+`./gradlew assembleDebug`.
+
+The code is written through iterative prompting with AI assistants, primarily
+**DeepSeek** with **ChatGPT** for the rest. I design the app, pick the features, test every build, and direct the process step by step. The
+phone is my machine; the AI is a fast pair programmer.
+
+### Tech I work with
+`Kotlin` · `Android` · `Termux` · `Supabase` · `MapLibre` · `Gradle`
